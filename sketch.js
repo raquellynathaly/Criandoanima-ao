@@ -4,12 +4,12 @@ function setup() {
   }
   
   function draw() {
-    circle (30,30,20);
+    circle (30,30,70);
   }
   
   function draw () {
    fill ("red");
-    circle (200,200, 50);
+    circle (200,200, 70);
   }
   
   let cor;
@@ -20,7 +20,7 @@ function setup() {
   
   function draw () {
    fill ("red");
-    circle (200,200, 50);
+    circle (200,200, 70);
   }
   
   function setup() {
@@ -31,7 +31,7 @@ function setup() {
   
   function draw() {
     fill (cor);
-    circle (200, 200,50)
+    circle (200, 200,70)
   }
   
   function setup() {
@@ -42,18 +42,18 @@ function setup() {
   
   function draw() {
     fill (cor);
-    circle (200, 200,50)
+    circle (200, 200,70)
   }
   
   function setup() {
    createCanvas(400, 400);
-   background ("white");
+   background ("purple");
    cor = color(random(0, 255), random(0, 255), random(0, 255));
   }
   
   function setup() {
    createCanvas(400, 400);
-   background ("white");
+   background ("purple");
    cor = color(random(0, 255), random(0, 255), random(0, 255));
    posicaoHorizontal = 200;
    posicaoVertical = 200;
@@ -61,13 +61,13 @@ function setup() {
   
   function draw() {
    fill(cor);
-   circle(posicaoHorizontal, posicaoVertical, 50);
+   circle(posicaoHorizontal, posicaoVertical, 70);
   }
   
   function draw() {
    fill(cor);
    circle(posicaoHorizontal,
-   posicaoVertical, 50);
+   posicaoVertical, 70);
   if(mouseX < posicaoHorizontal) {
    posicaoHorizontal--;
   }
